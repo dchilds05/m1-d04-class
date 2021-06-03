@@ -2,37 +2,30 @@
 
 # Module 1 - Day 4
 
+## Lab
 
-## Lab 
+- [CSS Recipes Clone](https://github.com/ironhack-labs/lab-css-recipes-clone)
 
-[Link to LAB](# lab)
+- [JS Greatest Movies of All times](https://github.com/ironhack-labs/lab-javascript-greatest-movies)
 
+## Slides
+
+[slides](slides-m1-d_04.md)
 
 ## Class
 
-- [Link Topic 1](# .md Topic 1)
+- HTML intro
 
-- [Link Topic 1] (# .md Topic 2)
+- CSS Intro
 
-- [Link Topic 1] (# .md Topic 3)
+- CSS Box
 
-- etc...
-
+- CSS FlexBox
 
 ## Self Guided
 
-[Link to Self Guided](# Self Guided)
-
-
-## Assesment 
-
-[Link to Assesment](# assesment)
-
+JS | Value vs Reference and Mutable Data Types
 
 ## Extra Resources
 
-- [Link to Extra Resource 1](# Extra Resources 1)
-
-- [Link to Extra Resource 2](# Extra Resources 2)
-
-- [Link to Extra Resource 3](# Extra Resources 3)
+TBD
