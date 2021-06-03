@@ -7,6 +7,20 @@ const fridge = [
   { food: "Pizza", daysInFridge: 4 },
   { food: "Cake", daysInFridge: 3 },
 ];
+
+// Filter prediate cahinig
+const carrotArr = fridge.filter(byCarrots).filter(byOlderThanWeek);
+
+function byCarrots(thing) {
+  return thing.food === "Carrots";
+}
+
+function byOlderThanWeek(item) {
+  return item.daysInFridge <= 7;
+}
+
+console.log(carrotArr);
+
 /* 
 // chaining filters
 const carrotArr = fridge
