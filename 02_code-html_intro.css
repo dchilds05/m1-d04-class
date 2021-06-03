@@ -1,0 +1,21 @@
+.red-box {
+  background-color: red;
+  width: 75%;
+}
+
+.blue-box {
+  background-color: #000099;
+  width: 15%;
+}
+
+.white-bold-text {
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.yellow-bold-text {
+  color: yellow;
+  font-size: 2rem;
+  font-weight: 800;
+}
