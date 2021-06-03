@@ -5,6 +5,17 @@ const inputs = ["MaAcO", "fEdE"];
 const names = ["Marco", "Fede"];
 
 const myPlusOnes = bases
+  .map((element) => {
+    // console.log(`I am + 1 ${element} to get ${element + 1}`);
+    return element + 1;
+  })
+  .sort(); // map returns a CHAINABLE NEW array
+
+console.log(myPlusOnes);
+console.log(bases);
+
+/* 
+const myPlusOnes = bases
   .map(function (element) {
     console.log(`I am + 1 ${element} to get ${element + 1}`);
     return element + 1;
@@ -13,3 +24,4 @@ const myPlusOnes = bases
 
 console.log(myPlusOnes);
 console.log(bases);
+ */
