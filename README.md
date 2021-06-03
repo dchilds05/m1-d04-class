@@ -22,9 +22,11 @@
 
 - CSS FlexBox
 
+- JS map() reduce() filter() Arrays
+
 ## Self Guided
 
-JS | Value vs Reference and Mutable Data Types
+[JS | Value vs Reference and Mutable Data Types](https://my.ironhack.com/lms/courses/course-v1:IRONHACK+WDFT52+202105_BCN/modules/ironhack-course-chapter_1/units/ironhack-course-chapter_1-sequential_3-vertical_4)
 
 ## Extra Resources
 
