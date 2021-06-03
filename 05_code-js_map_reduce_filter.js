@@ -1,18 +1,31 @@
 const fridge = [
   { food: "Carrots", daysInFridge: 32 },
+  { food: "Carrots", daysInFridge: 2 },
   { food: "Onions", daysInFridge: 23 },
   { food: "Bell Peppers", daysInFridge: 16 },
   { food: "Soda", daysInFridge: 7 },
   { food: "Pizza", daysInFridge: 4 },
   { food: "Cake", daysInFridge: 3 },
 ];
+/* 
+// chaining filters
+const carrotArr = fridge
+  .filter((thing) => {
+    return thing.food === "Carrots";
+  })
+  .filter((item) => {
+    return item.daysInFridge <= 7;
+  });
 
+console.log(carrotArr);
+ */
+/* 
 const isSpoiled = fridge.filter((item) => {
   return item.daysInFridge > 7;
 });
 
 console.log(isSpoiled);
-
+ */
 /* 
 const bases = [3, 5, 7, 9, 11];
 // we want to have this as a result [9, 25, 49, 81, 121];
