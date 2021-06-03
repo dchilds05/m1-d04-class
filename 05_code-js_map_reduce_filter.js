@@ -1,9 +1,15 @@
 const bases = [3, 5, 7, 9, 11];
 // we want to have this as a result [9, 25, 49, 81, 121];
 
-const inputs = ["MaAcO", "fEdE"];
-const names = ["Marco", "Fede"];
+const inputs = ["MArcO", "fEdE"]; // I want this ["Marco", "Fede"];
 
+const titleCaseNames = inputs.map((el) => {
+  return el[0].toUpperCase() + el.substr(1).toLowerCase();
+});
+
+console.log(titleCaseNames);
+
+/* 
 const myPlusOnes = bases
   .map((element) => {
     return element + 1;
@@ -14,6 +20,7 @@ const myPlusOnes = bases
 
 console.log(myPlusOnes);
 console.log(bases);
+*/
 
 /* 
 const myPlusOnes = bases
