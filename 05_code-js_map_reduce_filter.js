@@ -1,3 +1,19 @@
+const fridge = [
+  { food: "Carrots", daysInFridge: 32 },
+  { food: "Onions", daysInFridge: 23 },
+  { food: "Bell Peppers", daysInFridge: 16 },
+  { food: "Soda", daysInFridge: 7 },
+  { food: "Pizza", daysInFridge: 4 },
+  { food: "Cake", daysInFridge: 3 },
+];
+
+const isSpoiled = fridge.filter((item) => {
+  return item.daysInFridge > 7;
+});
+
+console.log(isSpoiled);
+
+/* 
 const bases = [3, 5, 7, 9, 11];
 // we want to have this as a result [9, 25, 49, 81, 121];
 
@@ -7,7 +23,7 @@ const titleCaseNames = inputs.map((el) => {
   return el[0].toUpperCase() + el.substr(1).toLowerCase();
 });
 
-console.log(titleCaseNames);
+console.log(titleCaseNames); */
 
 /* 
 const myPlusOnes = bases
