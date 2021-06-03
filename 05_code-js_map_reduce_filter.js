@@ -8,6 +8,15 @@ const fridge = [
   { food: "Cake", daysInFridge: 3 },
 ];
 
+const sumOfDays = fridge.reduce(summation, 0);
+
+function summation(acc, el) {
+  return (acc = acc + el.daysInFridge);
+}
+
+console.log(sumOfDays / fridge.length);
+
+/* 
 // Filter prediate cahinig
 const carrotArr = fridge.filter(byCarrots).filter(byOlderThanWeek);
 
@@ -20,7 +29,7 @@ function byOlderThanWeek(item) {
 }
 
 console.log(carrotArr);
-
+ */
 /* 
 // chaining filters
 const carrotArr = fridge
