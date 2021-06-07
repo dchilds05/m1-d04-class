@@ -8,13 +8,17 @@ const fridge = [
   { food: "Cake", daysInFridge: 3 },
 ];
 
-const sumOfDays = fridge.reduce(summation, 0);
-
-function summation(acc, el) {
+const sumOfDays = fridge.reduce(function (acc, el) {
   return (acc = acc + el.daysInFridge);
-}
+}, 0);
 
 console.log(sumOfDays / fridge.length);
+
+const namesArr = fridge.map((item) => {
+  return item.food;
+});
+
+console.log(namesArr);
 
 /* 
 // Filter prediate cahinig
